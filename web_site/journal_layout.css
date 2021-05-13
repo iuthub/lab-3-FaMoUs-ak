@@ -1,0 +1,111 @@
+
+
+.container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: stretch;
+}
+
+
+.mainpanel, .sidepanel, .header {
+	border:2px blue ;
+	margin: 10px;
+	padding: 20px;
+}
+
+.sidepanel {
+	flex-basis: 25%;
+}
+
+.mainpanel {
+	flex-basis: 75%;
+}	
+
+.header{
+	float:right;
+	clear:right;
+	background-color: #A8F0F0;
+	overflow: hidden; 
+}
+
+
+
+
+.Body{
+	border: 10px white solid;
+	background-color: white;
+	margin-left: 10%;
+	margin:auto;
+	background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1612807507_66-p-novogodnii-biryuzovii-fon-104.png"); 
+}
+    
+
+
+
+.Title{
+	background-color:  #A8F0F0;
+}
+
+.Subtitle{
+		font-size: 14pt;
+		background-color:  #A8F0F0;	
+}
+
+.PARAGRAPH
+{
+	border:4px solid #C2E9E9;
+	background-color: #E8FBFB;
+	margin-top: 10px;
+	padding:5px 5px 5px 5px;
+	overflow:hidden;
+	clear:right;
+}
+
+.date{
+	border-bottom: 2px dashed blue;
+}
+
+#Text{
+	float:right;
+	clear: right;
+}
+
+.imageblock1, .imageblock2{
+	float:right;
+	}
+
+.sidepanel{
+	border: 5px #05A79D solid;
+	background-color:#2FEBDC;
+	width:100px;
+	height:100px;
+	padding:5px;
+	margin:5px;
+	float:left;
+}
+
+body:hover{
+	color:yellow;
+}
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
